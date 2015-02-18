@@ -1,0 +1,32 @@
+- model: translation.Language
+  pk: 1
+  fields:
+    name: English
+    code: en
+- model: translation.Language
+  pk: 2
+  fields:
+    name: English (United States)
+    code: en_US
+- model: translation.Language
+  pk: 3
+  fields:
+    name: English (Great Britain)
+    code: en_GB
+- model: translation.Language
+  pk: 4
+  fields:
+    name: Portuguese
+    code: pt
+- model: translation.Language
+  pk: 5
+  fields:
+    name: Portuguese (Brazil)
+    code: pt_BR
+
+- model: translation.Project
+  pk: 1
+  fields:
+    name: Demo Project
+    languages: [5,]
+
